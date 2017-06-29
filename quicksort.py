@@ -4,6 +4,9 @@ import sys
 
 class QuickSort:
 
+    def __str__(self):
+        return "QuickSort"
+
     def sort(self, li):
         if type(li) is not list:
             raise Exception('Argument passed is not a list')

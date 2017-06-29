@@ -4,6 +4,9 @@ import sys
 
 class MergeSort:
 
+    def __str__(self):
+        return "MergeSort"
+
     def sort(self, li):
         if type(li) is not list:
             raise Exception('Argument passed is not a list')
