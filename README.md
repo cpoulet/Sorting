@@ -3,21 +3,24 @@ Different sorting algorithms in python compared to the .sort() from lib standard
 
 ## Speedtest
 ### FAST TESTS
+Sorting 10 random int array of 1000 elements between -10 000 and 10 000.
 * PySort      : 0.02 sec
 * QuickSort   : 0.05 sec
 * MergeSort   : 0.06 sec
 * InsertSort  : 0.20 sec
-* BubbleSort  : 1.86 sec
+* BubbleSort  : 1.87 sec
 
 ### MEDIUM TESTS
-* PySort      : 0.05 sec
-* QuickSort   : 0.11 sec
-* MergeSort   : 0.13 sec
-* InsertSort  : 0.77 sec
+Sorting 10 random int array of 3000 elements between -10 000 and 10 000.
+* PySort      : 0.07 sec
+* QuickSort   : 0.17 sec
+* MergeSort   : 0.20 sec
+* InsertSort  : 1.75 sec
 * BubbleSort  : Sorting is longer than 5 sec...Process killed
 
 ### LONG TESTS
-* PySort      : 0.23 sec
+Sorting 10 random int array of 10 000 elements between -10 000 and 10 000.
+* PySort      : 0.22 sec
 * QuickSort   : 0.61 sec
 * MergeSort   : 0.71 sec
 * InsertSort  : Sorting is longer than 5 sec...Process killed

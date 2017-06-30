@@ -22,7 +22,7 @@ def medium_testing(fun):
     t0 = time.time()
     for i in range(10):
         li = []
-        for i in range(2000):
+        for i in range(3000):
             li.append(r.randint(-10000, 10000))
         fun.sort(li)
     print("%-12s" % str(fun) + ": %.2f sec" % (time.time() - t0))
@@ -61,8 +61,7 @@ def main():
             p.join()
 
 if __name__ == "__main__":
-    main()
-#    try:
-#        main()
-#    except Exception as e:
-#        print(str(e))
+    try:
+        main()
+    except Exception as e:
+        print(str(e))
